@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  Code
+
+  Created by Ken Chung on 2/5/2021.
+  
+*/
+"NSPhotoLibraryAddUsageDescription" = "Code App需要訪問照片庫以保存圖像。";

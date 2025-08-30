@@ -1,0 +1,650 @@
+/* 
+  Localizable.strings
+  Code App
+
+  Created by Ken Chung on 6/12/2020.
+  
+*/
+
+"Welcome Message" =
+"# Code App
+##### **v1.10.2 (2025 年 3 月)**
+#### 開始
+[新文件](https://thebaselab.com/code/newfile)
+[打開文件](https://thebaselab.com/code/openfile)
+[打開文件夾](https://thebaselab.com/code/openfolder)
+
+#### 支持
+[說明文件](https://code.thebaselab.com)
+[GitHub](https://github.com/thebaselab/codeapp)
+[郵箱](mailto:support@thebaselab.com)
+[推特](https://twitter.com/thebaselab)
+";
+
+"Changelog.message" =
+"
+### 1.10.2 (2025 年 3 月)
+- 俄語本地化
+
+### 1.10.1 (2024 年 10 月)
+- 錯誤修復
+
+### 1.10.0 (2024 年 10 月)
+- Python 和 Java 的語言服務器
+- Monaco 編輯器支持更多語言
+
+### 1.9.0（2024 年 7 月）
+- SSH
+  - 代理跳轉
+  - 2FA / 鍵盤交互式認證
+- 修復了某些 SSH git 存儲庫無法克隆的問題
+
+### 1.8.0（2024 年 6 月）
+- 編輯器
+  - Runestone 編輯器模式（具有本地文本選擇控件的編輯器）
+  - Kotlin 的語法高亮
+  - 可以在不重新啓動應用程序的情況下啓用/禁用鍵盤工具欄
+- 終端增強
+  - 自定義字體
+  - 鍵盤工具欄
+
+### 1.7.4 (2024 年 5 月)
+- 修復了使用鍵盤工具欄粘貼文本的問題
+
+### 1.7.3 (2024 年 5 月)
+- 修復鍵盤工具欄無法禁用的問題
+
+### 1.7.2（2024 年 5 月）
+- 本地 Java / Node.js 中的交互式輸入
+- 修復了多文件 Java 程序的問題
+
+### 1.7.1（2024 年 3 月）
+- 終止正在運行的 C 程序
+
+### 1.7.0（2024 年 2 月）
+- Vim模式
+- 在資源管理器中拖放文件和文件夾
+- 能夠使用用戶安裝的字體
+- 刪除 stdc++.h 中不支持的標頭
+- 改進了編輯器滾動
+
+### 1.6.0（2024 年 1 月）
+- 本地編程語言增強
+   - 本地 Java (OpenJDK 8)
+     - 您現在可以使用“javac”和“java”命令離線編譯和運行Java程序
+   - Node.js 18.19.0
+   - PHP 8.3.2（帶 Zlib）
+- 刪除文件時的確認提示現在是可選的，默認情況下禁用
+
+### 1.5.3（2023 年 12 月）
+- 修復了終端默認爲 ~ 的錯誤
+
+### 1.5.2（2023 年 12 月）
+- SSH 遠程現在解析符號鏈接
+
+### 1.5.1（2023 年 10 月）
+- 修復了 FTP 遠程的問題
+- 修復了“端口轉發”選項卡始終顯示在緊湊屏幕中的錯誤
+
+### 1.5.0（2023 年 10 月）
+- SSH 遠程端口轉發
+- 修復了某些 SSH 遠程無法驗證的問題
+- 連接到遠程時解析主路徑的選項
+
+### 1.4.7（2023 年 9 月）
+- 修復 SSH 遠程的一些問題
+
+### 1.4.6（2023 年 8 月）
+- 版本控制
+   - 驗證
+     - SSH密鑰認證
+     - 多個憑證
+   - 新功能
+     - 從遠程拉取
+     - 解決衝突
+     - 創建/刪除分支和標籤
+     - 推送標籤
+     - lg2命令
+- 其他改進
+   - 可調節側邊欄寬度
+   - Clang 中的 bits/stdc++.h 標頭
+   - 選擇使用遠程 C 編譯器而不是本地編譯器
+   - 修復了無法導入關鍵文件的問題
+   - iOS 鎖定模式支持
+
+### v1.4.5 (2023 年 7 月)
+- 改進 iCloud 文件處理
+- 用戶界面改進
+
+### v1.4.4 (2023 年 5 月)
+- 啓用字體連字的選項
+- 內存中的 SSH 私鑰
+- 其他改進
+
+### v1.4.3 (2023 年 1 月)
+- Bug 修復
+- 日語本地化
+- 社區模板
+
+### v1.4.1 (2022 年 12 月)
+- Bug 修復
+
+### v1.4.0（2022 年 12 月）
+- PDF 預覽
+- 拆分視圖支持
+- 整體性能和穩定性改進
+
+### v1.3.6 (2022 年 10 月)
+- 將 Node.js 升級到 v16.17.0
+- svelte 的語法突出顯示
+- 新的編輯器主題
+- 正確處理終端終止信號
+- 支持使用 `code` 命令打開目錄
+- 修復了一個阻止 emmet 工作的 bug
+### v1.3.5 (2022 年 9 月)
+- 用戶界面改進
+- 支持在資源管理器中移動文件
+- 支持從遠程服務器下載文件
+- 能夠爲 git push 選擇不同的遙控器
+### v1.3.4 (2022 年 6 月)
+- 對 SFTP 的終端支持
+- 支持 Fira 代碼和自定義字體
+- 韓語本地化
+- 新的文檔網站
+- 一般改進
+### v1.3.3 (2022 年 5 月)
+- Bug 修復
+### v1.3.2 (2022 年 5 月)
+- 修復了阻止現有用戶訪問主題的 Bug
+### v1.3.1 (2022 年 5 月)
+- Bug 修復
+- Code+ - 一項訂閱服務，可讓我們將 Code 帶給所有人並解鎖所有主題。現有用戶繼續擁有對 Code 的完全訪問權限。
+### v1.3.0 (2022 年 5 月)
+- 遠程支持 (SFTP 和 FTP)
+- Dynamic Type 支持
+- 實驗性功能: 拼寫檢查文本文件
+### v1.2.13 (2022 年 3 月)
+- iOS 15.4 的兼容性
+- Node.js 的國際化支持
+### v1.2.12 (2022 年 3 月)
+- 錯誤修復
+### v1.2.10（2022 年 3 月）
+- 自定義鍵盤快捷鍵
+- 通過在行號上滑動來選擇文本
+- 用戶界面改進
+- 修復了編輯器有時無法加載的問題
+- Node.js 16.13.2
+### v1.2.9（2022 年 1 月）
+- 修復了以下問題：
+   - 某些鍵不適用於歐洲鍵盤佈局 (#237)
+   - `curl` 不再有效 (#330)
+   - 默認參數使一些 npm 命令崩潰 (#326)
+### v1.2.8 (December 2021)
+- 修復了以下問題：
+  - ssh-keygen 導致終端停止 (#314)
+  - 編輯器有時會顯示一個空白屏幕
+- 爲 Terraform 添加語法高亮 (#319)
+### v1.2.7（December 2021)
+- 一些改進
+### v1.2.6（September 2021)
+- 與最新的 iOS 版本兼容
+- 其他改進
+### v1.2.5 (July 2021)
+- 終端
+ - 修正了關於Clang / Clang ++的一些問題
+### v1.2.4（June 2021）
+- 編輯器
+ - 解決了鼠標/觸控板選擇不起作用的問題
+ - 更新到TypeScript 4.2.4
+- 界面
+  - 新的 iPhone 側邊欄設計
+  - 能夠對編輯器標籤進行重新排序
+  - 改進了 Xcode 主題的可讀性
+  - 能夠在 Context Menu 中複製文件
+- 性能
+  - 從文件 App 打開 SMB 時增強了性能
+- Git
+  - 改善與 Azure DevOps 存儲庫的兼容性
+  - Gutter indicators
+  - Git CLI 命令 (暫不支持遠程操作)
+- 終端
+  - 自動完成文件路徑
+  - 在編輯器中使用 `code <file>` 打開代碼
+- C / C++
+  - Clang（使用 `clang main.c` 和 `./a.out` 運行 C 程序）
+  - Clang++（使用 `clang++ main.cpp` 和 `./a.out` 運行 C++ 程序）
+- PHP
+  - php（使用 `php` 運行 PHP 程序和使用 `php -S localhost:<port>` 運行開發服務器）
+
+---
+
+### v1.2.3 (April 2021)
+- 編輯器
+  - 6 個顏色主題
+  - 只讀模式
+  - Node.js 的內置類型
+  - 支持 @types 定義
+- 資源管理器
+  - 多文件搜索
+- Python
+  - 內置 Matplotlib，Pandas
+- 其他
+  - UI 狀態恢復
+  - 德語的本地化
+  - 錯誤修復和其他改進
+
+---
+
+### v1.2.1（March 2021）
+- Node.js
+  - 離線運行 Javascript
+  - 安裝模塊命令 (npm install) (tsc, prettier etc.)
+  - 新的終端命令：npm, npx, node
+- Python 3.9.2
+  - 離線運行 Python
+  - 安裝模塊命令 (pip install)
+  - 新的終端命令：pip, python, python3
+- 編輯
+  -`問題` 標籤
+  - 新的 Markdown 風格
+  - Vue的語法突出顯示
+  - 平滑滾動選項 (適用於 iPad Pro)
+- 終端
+  - 現在支持淺色模式
+- 文件管理器
+  - 減少行高
+- Bug 修復
+
+---
+
+### v1.1.9 (February 2021)
+- Bug 修復
+
+---
+
+### v1.1.8 (February 2021)
+- 文本編輯器
+  - 遷移到 TextMate 語法（更高級語法突出顯示）
+  - 支持更多語言（Groovy，HLSL，Log，Makefile，Shaderlab，Fortran和Matlab）
+  - 修復了編輯器有時沒有反應的錯誤
+  - 新的鍵盤工具欄
+- 版本控制
+  - 改進的性能和可靠性
+  - 分期變更
+  - 切換分支
+  - 分離頭模式
+  - 恢復更改
+- 語言
+  - 支持 Groovy
+- 內置終端
+  - Bug 修復
+- 資源管理器
+  - 現在在關閉側邊欄時保留目錄的摺疊狀態
+  - 能夠通過點擊文件夾名稱來擴展文件夾
+- 其他
+  - 側邊欄的寬度減小
+  - 現在暫時刪除了主題，以支持新的語法突出顯示系統
+  - 暫時禁用了 JSON Intellisense
+
+---
+
+### v1.1.7 (January 2021)
+- 編輯器
+  - 當運行代碼或關閉鍵盤時，編輯器會保存文件
+  - 解決了有時無法顯示虛擬鍵盤的問題
+- 版本控制
+  - 克隆私人存儲庫
+  - Git push, pull 和 sync
+  - 修復了克隆存儲庫命名不正確的問題
+- 內置終端
+  - 70+ Linux 指令 (ls, cd, nslookup等)
+  - 類似於 Bash 的功能，例如 Piping，歷史記錄和完成
+  - 按 Tab 鍵顯示所有可用命令
+- 資源管理器
+  - 文件和目錄現在按字母順序排序
+  - 現在默認隱藏以點開頭的文件或目錄
+  - 能夠以兩指平移手勢選擇項目
+- 其他改進
+  - 您可以直接從文件應用程序或其他應用程序中使用 Code App 打開文件
+  - 可以在主屏幕上按住應用程序圖標以打開最近文檔
+";
+
+"Send us an Email" = "給我們發郵件";
+"Open an Issue on GitHub" = "在 GitHub 上報告問題";
+"Clear console" = "清除終端";
+"Kill Process" = "中止進程";
+"Sync" = "同步";
+"Synchronize Changes" = "同步遠程變更 (Git pull & push)";
+"You don't have any open editor." = "當前沒有打開的編輯器。";
+"This will pull remote changes down to your local repository and then push local commits to the upstream branch. Conflicts will be merged and overriden by the local copy." = "這會將遠程更改拉取到本地存儲庫，然後將本地提交推送到遠程分支。衝突將被本地副本合併和覆蓋。";
+"User Name" = "用戶名";
+"Erase" = "清除";
+"This will erase all user settings, including author identity and credentials." = "這將清除所有用戶設置，包括作者身份和憑據。";
+"Erase all settings" = "清除所有設置";
+"Release Notes" = "發佈說明";
+
+"New File" = "新建文件";
+"Open File" = "打開文件";
+"Open Editors" = "打開的編輯器";
+"EXPLORER" = "資源管理器";
+"Explorer" = "資源管理器";
+"SEARCH" = "搜索";
+"Search" = "搜索";
+"Results" = "結果";
+"Search Text" = "搜索文字";
+"Search File" = "搜索文件";
+"Quick add" = "新建文件";
+"Custom" = "自定義";
+"Where" = "路徑";
+"Current Folder" = "當前文件夾";
+"Add File" = "新建文件";
+"INPUT" = "輸入";
+"PROBLEMS" = "問題";
+"OUTPUT" = "輸出";
+"Options" = "選項";
+"Close All" = "全部關閉";
+"Close Workspace" = "關閉工作區";
+"Preview in Safari" = "在 Safari 中預覽";
+"Mini Map" = "小地圖";
+"Line Numbers" = "行號";
+"OTHERS" = "其他";
+"Tab Size" = "Tab 寬度";
+
+"Settings" = "設置";
+"General" = "一般";
+"Editor" = "編輯器";
+"Compiler" = "編譯器";
+"Accent" = "主題";
+"Font Size" = "字體大小";
+"Editor Font Size" = "編輯器字體大小";
+"Terminal Font Size" = "控制檯字體大小";
+"Bracket Completion" = "自動輸入括號";
+"Theme" = "主題";
+"Rate Code App" = "爲 Code App 打分";
+"About" = "關於";
+"Version" = "版本";
+
+"Done" = "完成";
+
+"Recent" = "最近";
+"Show in Files App" = "在「文件」App 中打開";
+"Copy Relative Path" = "複製相對路徑";
+"Delete" = "刪除";
+"Color Scheme" = "顏色主題";
+"Dark Theme" = "黑暗主題";
+"Light Theme" = "淺色主題";
+"Dark Themes" = "黑暗主題";
+"Light Themes" = "淺色主題";
+"Text Wrap" = "換行";
+"Render Whitespace" = "渲染空白字符";
+
+"Share" = "分享";
+"Rename" = "重命名";
+"Assign as workspace folder" = "設置爲工作文件夾";
+"Select For Compare" = "選擇進行比較";
+"Compare With Selected" = "與選定內容做比較";
+"Version Control" = "版本控制";
+"Author Identity" = "作者身份";
+"Authentication" = "憑據";
+"Name" = "名字";
+"Email address" = "電子郵件";
+"Save" = "保存";
+"Close Editor" = "關閉編輯器";
+"Zoom in" = "放大";
+"Zoom out" = "縮小";
+"Show Explorer" = "顯示資源管理器";
+"Show Search" = "顯示搜尋";
+"Show Source Control" = "顯示源代碼控制";
+"User Settings" = "用戶設置";
+"Show Panel" = "顯示終端";
+"Hide Panel" = "隱藏終端";
+"Run Code" = "運行代碼";
+"New Folder" = "新建文件夾";
+
+"The folder currently opened doesn't have a git repository." = "當前打開的文件夾沒有 Git 存儲庫。";
+"Example: https://github.com/thebaselab/codeapp.git" = "例子: https://github.com/thebaselab/codeapp.git";
+"Initialize Repository" = "初始化存儲庫";
+"Clone Repository" = "克隆存儲庫";
+"TERMINAL" = "終端";
+"Keyboard Toolbar" = "鍵盤工具欄";
+"Always Open In New Tab" = "總是在新標籤頁中打開";
+"Changes" = "變更";
+"Message (⌘Enter to commit)" = "提交備註 (⌘ + Enter 以提交)";
+"Staged Changes" = "緩存變更";
+"No changes are made in the working directory." = "沒有任何未緩存的變更。";
+"Git checkout: Uncommitted Changes" = "Git checkout: 未提交的更改";
+"Uncommited changes will be lost. Do you wish to proceed?" = "未提交的更改將丟失。你要繼續嗎？";
+"No changes are made in this file" = "沒有任何變更。";
+
+"Smooth Scrolling" = "平滑滾動";
+"Stage All Changes" = "緩存全部變更";
+"Push" = "推送 (Push)";
+"Fetch" = "獲取 (Fetch)";
+
+"Welcome" = "歡迎";
+"Themes" = "主題";
+"Read-only Mode" = "只讀模式";
+"Show Welcome Page" = "顯示歡迎頁面";
+"UI State Restoration" = "UI 狀態恢復";
+"Open in Tab" = "在標籤頁中打開";
+"Show Command in Terminal" = "在終端中顯示命令";
+"Duplicate" = "複製";
+"Console Font Size" = "終端字體大小";
+
+"Custom Keyboard Shortcuts" = "自定義鍵盤快捷鍵";
+
+"Remotes" = "遠程";
+"You don't have any saved remote." = "您沒有任何已保存的遠程服務器。";
+"New remote" = "新建遠程服務器";
+"Protocol" = "協議";
+"Address" = "地址";
+"Port" = "端口";
+"Username" = "用戶名";
+"Password" = "密碼";
+"Use Key Authentication" = "使用密鑰認證";
+"Remember address" = "記住地址";
+"Connect" = "連接";
+"Disconnect" = "斷開";
+"Current Remote" = "當前遠程服務器";
+"Remember credentials" = "記住憑據";
+"Key passphrase" = "SSH 密鑰密碼";
+"Show public key" = "顯示公鑰";
+
+"Experimental Features" = "實驗性功能";
+"Enable spell check in text files" = "在文本文件中啓用拼寫檢查";
+"Spell checking on content changed" = "在內容改變時檢查拼寫";
+
+"common.configure" = "配置";
+"common.open_folder" = "打開文件夾";
+"common.compare" = "比較";
+"common.overwrite" = "覆蓋";
+"common.save" = "保存";
+"common.dont_save" = "不保存";
+"common.cancel" = "取消";
+"common.revert" = "還原";
+"common.delete" = "刪除";
+"common.reset" = "重置";
+"common.done" = "完成";
+"common.import" = "導入";
+"common.add" = "添加";
+"common.create" = "創建";
+"common.remove" = "移除";
+"common.move" = "移動";
+"common.username" = "用戶名";
+"common.password" = "密碼";
+"common.continue" = "繼續";
+
+"notification.source" = "來源: %@";
+
+"subscription.codeplus" = "Code+";
+"subscription.title %@" = "12個月 %@";
+"subscription.message" = "讓 Code 面向所有人可用，並解鎖所有主題。Code 仍然開源，且所有現存功能都將保持免費可用。";
+"subscription.payment.description %@ %@" = "從%@開始，Code+ 將自動續訂，每年%@，直到您取消。";
+"subscription.payment.disallowed" = "您的設備的配置不允許付款。";
+"subscription.join" = "訂閱 Code+";
+"terms_of_use" = "使用條款";
+"code.and.privacy" = "Code 隱私政策";
+"credentials.note" = "憑據存儲在您設備的 Secure Enclave 內。我們無權訪問它。";
+"settings.editor.font" = "編輯器字體";
+"settings.editor.font.reset" = "重置";
+"settings.editor.font.ligatures" = "合字";
+"settings.editor.font.show_all_fonts" = "顯示所有字體";
+"settings.editor.vim.enabled" = "啓用 Vim";
+"settings.explorer.confirm_before_delete" = "刪除前確認";
+"settings.explorer.show_hidden_files" = "顯示隱藏文件";
+"settings.runestone.editor" = "Runestone編輯器";
+"settings.runestone.editor.notes" = "Runestone是一款具有本地文本選擇支持的編輯器。在此模式下，某些功能無法使用。";
+"settings.terminal.font" = "字體";
+"settings.language_service" = "語言服務";
+"settings.language_service.enable" = "啓用語言服務";
+"settings.language_service.notes" = "語言服務提供自動完成、靜態代碼分析等語言功能。此功能目前適用於 Python 和 Java。";
+"settings.about.change_app_language" = "更改應用程序語言";
+
+"panels.no_panel_selected" = "沒有選中的面板";
+"sidebar.no_section_selected" = "沒有選中的版面";
+
+"errors.script_already_running" = "腳本已在運行。 在運行另一個之前完成它。";
+"errors.fs.not_implemented" = "文件系統不支持此操作。";
+"errors.fs.scheme_not_registered" = "文件系統方案未註冊。";
+"errors.fs.invalid_host" = "無效的主機。";
+"errors.fs.unspported_encoding" = "不支持的編碼。";
+"errors.fs.unknown" = "未知錯誤。";
+"errors.fs.connection_failure" = "連接失敗。";
+"errors.fs.authentication_failure" = "身份驗證失敗。";
+"errors.fs.attempting_to_copy_parent_to_child" = "嘗試將父文件夾複製到子文件夾。";
+"errors.fs.attempting_to_copy_oneself" = "嘗試複製自己。";
+"errors.fs.already_connecting_to_a_host" = "已經正在連接到主機。";
+"errors.fs.jumping_not_supported_for_host" = "不支持此主機的跳轉。";
+"errors.fs.missing_jumping_server" = "缺少跳轉服務器。";
+"errors.source_control.authentication_failed" = "身份驗證失敗：您可能需要配置您的 git 憑據。";
+"errors.source_control.clone_authentication_failed" = "身份驗證失敗：存儲庫 url 錯誤或您需要配置 git 憑據。";
+"errors.source_control.no_staged_changes" = "沒有任何緩存變更。";
+"errors.source_control.empty_commit_message" = "備註不能爲空";
+"errors.source_control.invalid_url" = "無效的網址";
+"errors.unknown_file_format" = "未知文件格式";
+"errors.editor_does_not_exist" = "編輯器不存在。";
+"errors.editor_is_not_ready" = "編輯器尚未準備好。";
+"errors.failed_to_save_file.encoding.failed" = "無法保存文件。 編碼失敗。";
+"errors.file_modified_by_another_process" = "文件已被另一個進程修改。";
+"errors.failed_to_import_key" = "無法導入密鑰。";
+"errors.port_forward.service_unavailable" = "服務不可用";
+"errors.port_forward.invalid_address" = "無效的地址";
+"errors.port_forward.address_already_in_use" = "地址已在使用中";
+"errors.operation_cancelled_by_user" = "操作被用戶取消";
+"errors.sftp.invalid_host_url" = "無效的主機 URL";
+"errors.sftp.invalid_jump_host_url" = "無效的跳轉主機 URL";
+"errors.sftp.unable_to_start_portforward_service" = "無法啓動端口轉發服務";
+"errors.sftp.auth_failure" = "身份驗證失敗";
+"errors.sftp.failed_to_perform_operation" = "無法執行操作";
+"errors.sftp.unable_to_start_shell" = "無法啓動 shell";
+
+"file.copy" = "複製到..";
+"file.download" = "下載到..";
+"file.confirm_save %@" = "是否要保存 %@？";
+"file.confirm_delete %@" = "你確定要刪除 %@ 嗎？";
+"file.confirm_move_into %@ %@" = "你確定要移動 %@ 到 %@ 嗎？";
+"file.reopen_with_encoding" = "使用其他編碼重新打開";
+"file.download_now" = "立即下載";
+"file.upload" = "上傳";
+
+"actions.new_window" = "新窗口";
+"actions.switch_to_monaco_editor" = "切換到 Monaco 編輯器";
+"actions.switch_to_runestone_editor" = "切換到 Runestone 編輯器";
+
+"remote.connecting" = "正在連接到主機";
+"remote.connected" = "連接成功";
+"remote.ssh_key_not_found" = "在 Documents/.ssh/id_rsa 中找不到 SSH 密鑰。 通過在終端中運行 ssh-keygen 生成一個。";
+"remote.reload_key" = "重新加載密鑰";
+"remote.passphrase_for_private_key" = "私鑰密碼";
+"remote.credentials_for %@" = "%@ 的憑據";
+"remote.enter_credentials" = "輸入憑據";
+"remote.authenticate_to %@" = "驗證到 %@";
+"remote.one_or_more_hosts_use_this_host_as_jump_proxy" = "一個或多個主機將此主機用作跳轉代理";
+"remote.confirm_delete_are_you_sure_to_delete" = "您確定要刪除主機嗎？";
+"remote.use_jump_server" = "使用跳轉服務器";
+"remote.jump_using" = "使用跳轉服務器";
+
+"source_control.title" = "源碼管理";
+"source_control.username" = "用戶名";
+"source_control.password_based_authentication" = "基於密碼的身份驗證";
+"source_control.ssh_authentication" = "SSH 身份驗證";
+"source_control.private_key_content" = "私鑰內容";
+"source_control.editing_ssh_private_key" = "編輯 SSH 私鑰";
+"source_control.pat" = "個人訪問令牌";
+"source_control.pat_or_password" = "個人訪問令牌或密碼";
+"source_control.ssh_key_reset_confirmation" = "您確定要重置 SSH 密鑰嗎？";
+"source_control.url_specific_credentials" = "指定URL 的憑據";
+"source_control.add_new_credentials" = "添加新憑據";
+"source_control.git_authentication" = "Git 身份驗證";
+"source_control.repository_initialized" = "存儲庫已初始化";
+"source_control.commit_succeeded" = "提交成功";
+"source_control.uploading_objects" = "上傳中";
+"source_control.pushing_to_remote" = "推送中";
+"source_control.push_succeeded" = "推送成功";
+"source_control.fetching_from_origin" = "下載中";
+"source_control.fetch_succeeded" = "下載成功";
+"source_control.clone_succeeded" = "克隆成功";
+"source_control.cloning_into" = "克隆中: %@";
+"source_control.error" = "克隆錯誤: %@";
+"source_control.revert_succeeded" = "還原成功";
+"source_control.remote_credentials" = "Git 憑證";
+"source_control.credentials.note" = "在許多情況下，您需要使用個人訪問令牌而不是密碼來進行身份驗證。 要了解更多：";
+"source_control.confirm_revert %@" = "您確定要還原 %@ 嗎？";
+"source_control.retrieving_changes" = "檢索變更中";
+"source_control.community_templates" = "社區模板";
+"source_control.community_templates.description" = "社區模板是 GitHub 上帶有#codeapp-template 標籤的存儲庫。 您可以在設置菜單中禁用此功能。";
+"source_control.clone" = "克隆";
+"source_control.pull" = "拉取";
+"source_control.pulling_from_remote" = "拉取中";
+"source_control.pull_succeeded" = "拉取成功";
+"source_control.checkout.select_branch_or_tag" = "選擇分支或標籤";
+"source_control.public_key" = "公鑰";
+"source_control.editing_public_key" = "編輯公鑰";
+"source_control.key_content" = "密鑰內容";
+"source_control.private_key" = "私鑰";
+"source_control.passphrase_optional" = "密碼 (可選)";
+"source_control.hostname" = "主機名";
+"source_control.credentials" = "憑據";
+"source_control.new_credentials" = "新憑據";
+"source_control.hostname_based_credentials" = "基於主機名的憑據";
+"source_control.add_key_based_credentials" = "添加基於密鑰的憑據";
+"source_control.add_password_based_credentials" = "添加基於密碼的憑據";
+"source_control.create_branch" = "創建分支";
+"source_control.branch_name" = "分支名稱";
+"source_control.branch" = "分支";
+"source_control.confirm_delete_branch %@" = "您確定要刪除分支 %@ 嗎？";
+"source_control.branch_deleted" = "分支 %@ 已刪除";
+"source_control.tag" = "標籤";
+"source_control.create_tag" = "創建標籤";
+"source_control.tag_name" = "標籤名稱";
+"source_control.annotation_optional" = "註釋 (可選)";
+"source_control.tag_created" = "Tag %@ erstellt";
+"source_control.confirm_delete_tag" = "您確定要刪除標籤 %@ 嗎？";
+"source_control.tag_deleted" = "標籤 %@ 已刪除";
+"source_control.pushing_tag_to_remote" = "推送標籤到遠程";
+"source_control.push" = "推送";
+"source_control.commit" = "提交";
+"source_control.message_command_enter_to_commit" = "提交備註 (⌘ + Enter 以提交)";
+
+"panel.problems.no_problems_detected" = "工作區中未檢測到問題。";
+"panel.execution.press_play_to_execute_code" = "按下播放按鈕執行代碼。程序輸入需要在執行前填寫。";
+"panel.execution.program_input" = "程序輸入..";
+"panel.execution.input" = "輸入";
+"panel.execution.output" = "輸出";
+"panel.execution.split_view" = "分屏";
+"panel.execution.title" = "執行";
+
+"local.execution.title" = "本地執行";
+
+"remote.setup_remote_server" = "有關遠程訪問功能的文檔";
+"remote.private_key_content" = "私鑰內容";
+"remote.setup_note" = "要生成密鑰，請在終端中運行 ssh-keygen。如果沒有密鑰密碼，請留空。";
+"remote.import_from_file" = "從文件導入";
+"remote.port_forward.new_port_forward" = "新建端口轉發";
+"remote.port_forward.local_port_or_address" = "本地端口或地址";
+"remote.port_forward.remote_port_or_address" = "遠程端口或地址";
+"remote.port_forward.port_forwarding" = "端口轉發";
+"remote.port_forward.configure_description" = "您可以使用端口轉發功能將本地端口轉發到遠程服務器。";
+"remote.port_forward.address_example" = "例如 6000 或 127.0.0.1:6000";
+"remote.settings.ssh_remote" = "SSH 遠程";
+"remote.settings.resolve_home_path" = "解析主目錄路徑";
